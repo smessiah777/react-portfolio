@@ -12,7 +12,7 @@
   flex-direction: column;
   position: absolute;
   height: 100vh;
-  width: 100vw;
+  width: 98.9vw;
   top: 0;
   left: 0;
   background-color: #04123096;
@@ -26,20 +26,70 @@
 }
 
 .name {
-  font-size: 6rem;
+  font-size: 4rem;
   color: white;
   border-bottom: 2px solid #2c666e;
 }
 
 .last-name {
-  font-size: 6rem;
+  font-size: 4rem;
   color: #c75000;
 }
 
 .sub-title {
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
   /* width: 400px;
     margin: 0 auto;
     border-bottom: 4px solid #2C666E; */
+}
+
+/* --------------------------------------------Laptop and Desktop Media Queries--------------------------------------------------- */
+
+@media only screen and (min-width: 1224px) {
+  .hero {
+    background-image: url(../../assets/images/chicago.jpeg);
+    background-position: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .hero-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: #04123096;
+    overflow-x: hidden;
+  }
+
+  .hero-content-wrap {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    z-index: 2;
+  }
+
+  .name {
+    font-size: 6rem;
+    color: white;
+    border-bottom: 2px solid #2c666e;
+  }
+
+  .last-name {
+    font-size: 6rem;
+    color: #c75000;
+  }
+
+  .sub-title {
+    font-size: 3rem;
+    color: white;
+    /* width: 400px;
+      margin: 0 auto;
+      border-bottom: 4px solid #2C666E; */
+  }
 }

@@ -8,3 +8,45 @@ html {
 .section {
   height: 100vh;
 }
+
+.section-content {
+  position: relative;
+  background-color: #fffaff;
+  margin-top: 20px;
+  height: auto;
+  overflow: auto;
+  z-index: 1;
+  height: 100vh;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: row;
+  /* position: absolute; */
+  content: '';
+  width: 6px;
+  height: 72px;
+  background-color: #2c666e;
+  /* padding-left: 40px; */
+  top: 2px;
+  left: 30px;
+  margin-bottom: 20px;
+}
+
+.title-h3 {
+  color: #041230;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  padding-left: 25px;
+  line-height: 1;
+  margin-bottom: 100px;
+}
+
+.title-icon {
+  color: #2c666e;
+  font-size: 40px;
+  margin: 5px 0 0 20px;
+  visibility: hidden;
+}

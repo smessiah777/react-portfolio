@@ -29,11 +29,13 @@
   font-size: 4rem;
   color: white;
   border-bottom: 2px solid #2c666e;
+  letter-spacing: 5px;
 }
 
 .last-name {
   font-size: 4rem;
   color: #c75000;
+  letter-spacing: 5px;
 }
 
 .sub-title {

@@ -1,17 +1,16 @@
 import React, { Fragment } from 'react';
+import '../sections/Hero.css';
+import '../sections/About.css';
 import Hero from '../sections/Hero';
 import Projects from '../sections/Projects';
-import '../sections/Hero.css';
+import About from '../sections/About';
 
 const MainPage = () => {
   return (
     <div>
-      <section id='#' className='section hero'>
-        <Hero />
-      </section>
-      <section id='projects' className=' section-content'>
-        <Projects />
-      </section>
+      <Hero />
+      <Projects />
+      <About />
     </div>
   );
 };

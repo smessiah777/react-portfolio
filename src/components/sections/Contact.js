@@ -3,12 +3,12 @@ import React from 'react';
 const Contact = () => {
   return (
     <div>
-      <section id='contact' class='section section-content contact-section'>
-        <div class='section-title'>
-          <h3 class='title-h3'>Contact</h3>
-          <i class='fas fa-envelope title-icon'></i>
+      <section id='contact' className='section section-content contact-section'>
+        <div className='section-title'>
+          <h3 className='title-h3'>Contact</h3>
+          <i className='fas fa-envelope title-icon'></i>
         </div>
-        <form id='contact-form' class='contact-form-styles'>
+        <form id='contact-form' className='contact-form-styles'>
           <div className='form-section'>
             <label htmlFor='name-input'>Name</label>
             <input type='text' id='name' />

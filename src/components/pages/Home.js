@@ -1,8 +1,8 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import '../sections/Hero.css';
 import '../sections/About.css';
 import Hero from '../sections/Hero';
-import Projects from '../sections/projects/Projects';
+import Projects from '../sections/projects/ProjectsSection';
 import About from '../sections/About';
 import Contact from '../sections/Contact';
 

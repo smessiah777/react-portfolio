@@ -1,21 +1,28 @@
-import React from 'react';
-
+import React, { Component } from 'react';
+import ProjectItem from './ProjectItem';
+import projectsData from '../projects/Projects.json';
 import './Projects.css';
 
-const Projects = () => {
-  return (
-    <section>
-      <section id='projects' className=' section-content'>
-        <div className='section-title'>
-          <h3 className='title-h3'>Projects</h3>
-          {/* <span><i className='fas fa-pencil-ruler title-icon'></i> </span>*/}
-        </div>
-        <div className='container'>
-          <h1>I love tacos</h1>
-        </div>
-      </section>
-    </section>
-  );
-};
+class Projects extends Component {
+  state = {
+    projectsData
+  };
+
+  render() {
+    return (
+      <div className='projectsStyle'>
+        {this.state.projectsData.map(project => (
+          <ProjectItem
+            id={project.id}
+            key={project.id}
+            name={project.name}
+            image={project.image}
+            description={project.description}
+          />
+        ))}
+      </div>
+    );
+  }
+}
 
 export default Projects;

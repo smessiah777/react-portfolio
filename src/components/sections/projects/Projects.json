@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Google Books Search App",
-    "images": "../../assets/images/project_images/google-book-search.png",
+    "image": "https://image.flaticon.com/icons/png/512/562/562132.png",
     "link": "https://arcane-scrubland-22228.herokuapp.com/",
     "github": "https://github.com/smessiah777/Google-Books-Search",
     "description": "This app utilizes Google's book API and allows the user to search for books and save book searches to a mongo database."
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Git Hub Profile Finder",
-    "images": "../../assets/images/project_images/github.png",
+    "image": "../../../../../assets/images/project_images/github.png",
     "link": "https://github-profile-search-app.netlify.com/",
     "github": "https://github.com/smessiah777/Google-Books-Search",
     "description": "React app that allows a user to search for Github profiles using the Github API"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Run the Jewels Game",
-    "images": "https://runthejewels.com/wp-content/uploads/2017/03/rtj_logo.jpg",
+    "image": "https://s3.amazonaws.com/alwayson-design/interactives/2017/run_the_jewels/media/png_header/mike_elp.png",
     "link": "https://smessiah777.github.io/Run-The-Jewels-game/",
     "github": "https://github.com/smessiah777/Run-The-Jewels-game",
     "description": "RTJ themed crystal collector game"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Video Search App",
-    "images": "../../assets/images/project_images/Video.png",
+    "image": "../../assets/images/project_images/Video.png",
     "link": "https://video-search-react-app.netlify.com/",
     "github": "https://github.com/smessiah777/react-video-search",
     "description": "A React app that utilizes the Youtube data api to search for videos and watch them."

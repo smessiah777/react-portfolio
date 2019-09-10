@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Git Hub Profile Finder",
-    "image": "../../../../../assets/images/project_images/github.png",
+    "image": "https://octodex.github.com/images/jetpacktocat.png",
     "link": "https://github-profile-search-app.netlify.com/",
     "github": "https://github.com/smessiah777/Google-Books-Search",
     "description": "React app that allows a user to search for Github profiles using the Github API"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Video Search App",
-    "image": "../../assets/images/project_images/Video.png",
+    "image": "https://camo.githubusercontent.com/c46c90f4cdf005e8e1fb0991429b9e5bb07436e7/68747470733a2f2f7777772e6672656569636f6e73706e672e636f6d2f75706c6f6164732f766964656f2d63616d6572612d706e672d69636f6e2d352e706e67",
     "link": "https://video-search-react-app.netlify.com/",
     "github": "https://github.com/smessiah777/react-video-search",
     "description": "A React app that utilizes the Youtube data api to search for videos and watch them."

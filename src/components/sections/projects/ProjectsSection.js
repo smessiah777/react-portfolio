@@ -10,11 +10,7 @@ const ProjectsSection = () => {
           <h3 className='title-h3'>Projects</h3>
           {/* <span><i className='fas fa-pencil-ruler title-icon'></i> </span>*/}
         </div>
-
         <Projects />
-        {/* <div className='container'>
-          
-        </div> */}
       </section>
     </section>
   );

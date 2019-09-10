@@ -10,7 +10,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className='projectsStyle'>
+      <div className='project-img-container'>
         {this.state.projectsData.map(project => (
           <ProjectItem
             id={project.id}

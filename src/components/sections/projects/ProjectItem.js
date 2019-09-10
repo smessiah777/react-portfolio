@@ -1,24 +1,14 @@
 import React from 'react';
 import './ProjectItem.css';
+import { Link } from 'react-router-dom';
 const ProjectItem = props => {
-  // useEffect(() => {
-  //   projects(props);
-  // }, [props]);
-  console.log(props.name);
   return (
-    <div className='card'>
+    <div>
       <div className='img-container'>
-        <img alt={props.name} src={props.image} />
-      </div>
-      <div className='content'>
-        <ul>
-          <li>
-            <strong>Project:</strong> {props.name}
-          </li>
-          <li>
-            <strong>Description:</strong> {props.description}
-          </li>
-        </ul>
+        <img alt={props.name} src={props.image} className='project-img' />
+        <div className='img-overlay'>
+          <div className='img-text'>{props.name}</div>
+        </div>
       </div>
     </div>
   );
